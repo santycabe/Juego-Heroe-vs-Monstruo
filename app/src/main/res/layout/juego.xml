@@ -114,14 +114,15 @@
         app:layout_constraintVertical_bias="0.216" />
 
     <Button
-        android:id="@+id/btn_salir"
+        android:id="@+id/btn_salir2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
         android:backgroundTint="#000000"
-        android:onClick="accionBtn_salir"
+        android:onClick="accionBtn_salir2"
         android:text="Salir"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="8dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
