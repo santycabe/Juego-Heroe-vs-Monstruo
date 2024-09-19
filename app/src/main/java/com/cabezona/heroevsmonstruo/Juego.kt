@@ -34,7 +34,7 @@ class Juego : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge() // Habilita el modo de pantalla completa o "Edge to Edge"
-        setContentView(R.layout.juego) // Establece el diseño de la actividad a partir del archivo XML 'juego'
+        setContentView(R.layout.juego) // Establece el diseño de la actividad a partir del archivo XML 'juego' ---
 
 
         // Vincula las vistas (componentes gráficos) a las variables correspondientes
@@ -93,8 +93,6 @@ class Juego : AppCompatActivity() {
                 tvInfo.text ="Has Ganado"
                 tvVidaMonstruo.text = "Muerto!"
 
-
-
                 // Agregar delay de 3 segundos antes de cerrar la actividad
                 Handler(Looper.getMainLooper()).postDelayed({
                     finish()
@@ -119,7 +117,7 @@ class Juego : AppCompatActivity() {
 
                     // Volver a activar el botón después del ataque del monstruo
                     btnAtacar.isEnabled = true
-                }, 2000)
+                }, 1000)
             }
         }
     }
@@ -178,5 +176,8 @@ class Juego : AppCompatActivity() {
 
     }
 
-
+    fun accionBtn_salir2() {
+        mediaPlayerGolpe.release()
+        finish()
+    }
 }

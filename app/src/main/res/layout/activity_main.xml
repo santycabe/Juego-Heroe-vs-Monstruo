@@ -126,7 +126,7 @@
     <Switch
         android:id="@+id/switch_musica"
         android:layout_width="117dp"
-        android:layout_height="43dp"
+        android:layout_height="48dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="64dp"
         android:checked="true"
@@ -138,7 +138,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btn_salir"
+        android:id="@+id/btn_salir2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#000000"
