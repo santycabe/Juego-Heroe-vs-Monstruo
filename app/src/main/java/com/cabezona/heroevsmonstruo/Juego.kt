@@ -34,7 +34,7 @@ class Juego : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge() // Habilita el modo de pantalla completa o "Edge to Edge"
-        setContentView(R.layout.juego) // Establece el diseño de la actividad a partir del archivo XML 'juego' ---
+        setContentView(R.layout.juego) // Establece el diseño de la actividad a partir del archivo XML 'juego' ---h
 
 
         // Vincula las vistas (componentes gráficos) a las variables correspondientes
